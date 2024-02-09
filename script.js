@@ -1,3 +1,4 @@
+'use strict';
 // let text = ";alskjdfkasjdfjaklsjd;fja;sljdf;ajsdjfl;asdjflaskjdfl;kasjblvj nclxjzg.jdf,f";
 // const numbers = 123424343;
 // alert("text");
@@ -159,6 +160,31 @@
 
 // console.log(2 + 2 === "4")
 
-console.log(false == "jgjjgjj") //falsy  - 0 , false, "", null, undefined, Nan - 6шт
+// console.log(false == "jgjjgjj") //falsy  - 0 , false, "", null, undefined, Nan - 6шт
 
 // n = n + 1 // n = n++
+
+//task1
+
+let numberOfFilms = prompt("Скільки фільмів ви вже подивилися?", "");
+
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
+
+let a = prompt('Один з останніх переглянутих фільмів:', '');
+let b = prompt('На скільки оціните його? ', '');
+let c = prompt('Один з останніх переглянутих фільмів:');
+let d = prompt('На скільки оціните його? ', '');
+
+personalMovieDB.movies[a] = b; 
+personalMovieDB.movies[c] = d;
+
+// personalMovieDB.movies.hello = d;
+
+
+console.log(personalMovieDB);
