@@ -147,7 +147,7 @@
 
 
 
-// console.log(2 + "px");  //"24" 
+// console.log(2 + "px");  //"2px" 
 
 // let number = 6;
 // // increment  ++
@@ -166,25 +166,101 @@
 
 //task1
 
-let numberOfFilms = prompt("Скільки фільмів ви вже подивилися?", "");
+// let numberOfFilms = prompt("Скільки фільмів ви вже подивилися?", "");
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
+// const personalMovieDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false
+// };
 
-let a = prompt('Один з останніх переглянутих фільмів:', '');
-let b = prompt('На скільки оціните його? ', '');
-let c = prompt('Один з останніх переглянутих фільмів:');
-let d = prompt('На скільки оціните його? ', '');
+// let a = prompt('Один з останніх переглянутих фільмів:', '');
+// let b = prompt('На скільки оціните його? ', '');
+// let c = prompt('Один з останніх переглянутих фільмів:');
+// let d = prompt('На скільки оціните його? ', '');
 
-personalMovieDB.movies[a] = b; 
-personalMovieDB.movies[c] = d;
+// personalMovieDB.movies[a] = b; 
+// personalMovieDB.movies[c] = d;
 
-// personalMovieDB.movies.hello = d;
+// // personalMovieDB.movies.hello = d;
 
 
-console.log(personalMovieDB);
+
+// console.log(personalMovieDB);
+
+// if (1) {
+//     console.log('Ok!');
+// } else {
+//     console.log('GoodBye!');
+// }
+
+// //true
+// if (num <=  50) {
+//     console.log("Error!")
+// } else if (num > 100) {
+//     console.log('Багато!')
+// } else {
+//     console.log('Ok!')
+// }
+
+// //тернарний оператор
+
+// //  умова ? дія, якщо true : дія, якщо false
+// //true or false      if true               if false
+// (num === 50) ? console.log('Okay') : console.log('Error!');
+
+
+
+
+// const num = 101;
+
+// switch (num) {
+//     case 49:
+//         console.log('Error!');
+//         break;
+//     case 100:
+//         console.log('Not enought!');
+//         break;
+//     case 101: 
+//         console.log('Great!');
+//         break;
+//     default: 
+//         console.log('Not at this time!')
+//         break;
+// }
+
+
+// const burger = true;
+// const cola = false;
+
+
+// // && - оператор "і"
+
+// if (burger && cola) {
+//     console.log("lets have a break!");
+// }
+// console.log((burger && cola));
+
+// // "||" - оператор "або"
+
+// const price = 10; 
+// const sale = 5;
+
+// console.log(price < 5 || sale < 10);
+// console.log(price > 10 || sale < 0 );
+
+// console.log("a" > "b");
+
+// const a1 = [3, 4, 5, 6, 6];
+
+// const str = "alskdjfal;sjd";
+// str.length
+
+// a1[0];
+// // console.log(str[0]); 
+// "2" > "12" //true
+
+// console.log(str.length);
+
