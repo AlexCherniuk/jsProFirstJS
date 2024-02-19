@@ -264,3 +264,115 @@
 
 // console.log(str.length);
 
+// console.log(10%2);
+
+// let num = +prompt("Введіть число - ", "");
+
+// if (num%2 === 0) {
+//     console.log('Ви ввели парне число!')
+// } else {
+//     console.log('Ви ввели НЕ парне число!')
+// }
+
+
+// let num = +prompt("Введіть свій вік", "");
+
+// if (num >= 18) {
+//     console.log("Вітаю, ви - повнолітня особа!");
+// } else {
+//     console.log("До побачення!");
+// }; 
+
+
+// let a = +prompt('Порівнюємо числа', '');
+// let b = +prompt('Порівнюємо числа', '');
+
+// if (a >= b) {
+//     console.log('Error');
+// } else {
+//     console.log(b);
+// }
+
+
+
+// let num1 = +prompt("Введіть перше число", "");
+// let num2 = +prompt("Введіть друге число", "");
+
+// console.log(num1)
+
+// if (num1 > num2) {
+//     console.log(`${num1} більше ніж ${num2}`);
+// } else if (num2 > num1) {
+//     console.log(num2 + " більше, ніж " + num1);
+// } else if (num1 === num2)  {
+//     console.log("Значення рівні");
+// } else {
+//     console.log('Error');
+// } 
+
+
+
+
+// let validLogin = prompt("Введіть логін", "");
+// let validPassword = prompt("Введіть пароль", "");
+
+// if (validLogin === "user123" && validPassword === "qwerty") {
+//     console.log("Логін та пароль вірні ");
+// } else {
+//     console.log("Error. Логін або пароль введено невірно. Спробуйте ще раз.");
+// };
+
+// console.log(null && 5 || null && "");
+
+let data = [1, 3, 56, 'sdfsdf']
+
+let text = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio officiis voluptas maiores vero nulla asperiores nemo sed numquam natus ipsum autem voluptate facilis quo exercitationem vel, architecto reprehenderit adipisci nobis."
+
+
+// console.log(data[0]);
+
+// let text2 = '12'
+
+// console.log(text2[0])
+
+// console.log("2" > "12");
+
+// const hamburger = 0;
+// const fries = undefined;
+// const cola = 2;
+// const nuggets = 5;
+
+
+// if (hamburger === 3 && nuggets === 7 || nuggets  && cola === 1 && fries)  {
+//     console.log('Поїли!');
+// } else {
+//     console.log('Пішли додому!');
+// }
+
+// console.log(hamburger  || cola || fries);
+
+
+// let johnReport;
+// let alexReport;
+// let mariaReport = 'done';
+
+// console.log(johnReport || alexReport || mariaReport);
+// console.log(1 && 0);
+// console.log(1 && 8);
+// console.log(null && 5);
+// console.log(0 && 'la;sjdf;lasjdf')
+
+// const hamburger = 0;
+// const fries = undefined;
+// const cola = 2;
+// const nuggets = 5;
+
+
+// if (hamburger === 0 && nuggets && cola || nuggets  && cola === 1 && fries)  {
+//     console.log('Поїли!');
+// } else {
+//     console.log('Пішли додому!');
+// }
+
+
+console.log( 5 === 5 && 3 > 1 || 5);
