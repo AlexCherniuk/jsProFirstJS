@@ -1,73 +1,165 @@
 "use strict";
 
-// let num = 50; //51
-// //first loop
-// while(num <0) {
-//     console.log(num);
-//     num++ //num = num + 1
-// } 
+// let num = 20
 
 
-//second 
-
-// do {
-//     console.log(num);
-//     num++;
-// }
-// while(num < 55);
-
-// for(let i = 1; i <=28; i++) {
-//     if(i === 6 || i === 7){
-//         continue;
-//     }
-//     console.log(`На цій неділі ми ходили в театр ${i} разів`);
-// }
-
-// for (let i = 1; i <= 3; i++){
-//     console.log(`'i' тренування номер ${i}`);
-//     for(let j = 1; j <= 3; j++){
-//         console.log(`'J' вправа ${j} `)
-//     }
-// }
-
-
-//*
-//**
-//***
-//****
-//*****
-//******
-
-// let result = '';
-// const length = 12;
-
-// for(let i = 1; i < length; i++) {
-//     for(let j = 0; j < i; j++ ){
-//         result += '*';
-//     }
-//     result += '\n';
-// }
-
-// console.log(result);
-
-
-// for (let i = 5; i < 11; i++) {
-//     console.log(i)
-// }
-
-// for(let i = 20; i >=10; i--) {
-//     if (i === 13) break;
-//     console.log(i);
-// }
-
-// let num = 2;
-// while(num <= 10) {
-//     console.log(num);
-//     num += 2;
-// }
-
-
-// for (let i = 2;  i < 11; i++) {
-//     if (i % 2 === 0)
-//         console.log(i);
+// function showMessage() {
+//     let num = 15
+//     console.log(num)
 // };
+
+// showMessage();
+
+// console.log(num);
+
+
+
+
+// // let result = calc(4, 6);
+
+// console.log(calc(4, 2));
+// console.log(calc(45, 2));
+// console.log(calc(4, 6));
+// console.log(calc(4, 45));
+
+
+//function declaration
+
+// function calcNum(a, b){
+
+//     return a + b;
+// }
+
+//function expression
+// let ret = function() {
+//     let num = 20 
+//     return num;
+// }
+
+// console.log(ret())
+
+// arrow func 
+
+
+// let res = (a, b) => a + b;
+
+
+// console.log(res(12, 5))
+
+// function firstTask() {
+// //arr.length
+//     const arr = [3, 5, 8, 16, 20, 23, 50];
+//     const result = [];
+
+//     for(let i = 0; i < arr.length; i++){
+//         result[i] = arr[i]
+//     }
+
+//     console.log(result)
+//     return result;
+// }
+
+
+// function secondTask() {
+//     // Значення масиву не міняємо 
+//     const data = [5, 10, 'Shopping', 20, 'Homework'];
+
+//     for(let i = 0; i <data.length; i++) {
+//         if (typeof(data[i]) === 'number') {
+//             data[i] = data[i] * 3;
+//         } else if (typeof(data[i]) === 'string') {
+//             data[i] = data[i] + ' - done'
+//         }
+//     }
+//     console.log(data)
+
+//     return data;
+// }
+
+// secondTask();
+
+// let usdCurr = 38;
+// let eurCurr = 42;
+// let sekCurr = 3.7;
+// let dkkCurr = 4.7;
+// let discount = 0.95;
+
+// // function test() {
+// //     for (let i = 0; i < 5; i++) {
+// //         console.log(i);
+// //         if(i === 3) return
+// //     }
+// // }
+
+// test()
+// function doNothing(){
+//     console.log('sladjf;s')
+// };
+// console.log(doNothing() === undefined);
+// // function convert(amount, curr) {
+// //     return amount * curr;
+// // };
+
+// function promo(result){
+//     return result * discount;
+// }
+
+// let res = convert(499, usdCurr);
+
+// promo(res);
+
+// function convertEur(amount) {
+//     console.log(amount * eurCurr)
+//     return amount * eurCurr;
+// };
+
+
+// function convertSek(amount) {
+//     console.log(amount * sekCurr)
+//     return amount * sekCurr;
+// };
+
+let txtFromServer = "Введіть т";
+
+
+
+// function returnQuantityOfText(txt) {
+//     return txt.length
+// }
+
+// let result = returnQuantityOfText(txtFromServer);
+
+// if (result <= 10) {
+//     console.log('Okay');
+// } else {
+//     console.log('Перевищений ліміт')
+// }
+
+// let result = function(txt) {
+//     return txt.length
+// }
+
+// console.log(result('hello'))
+
+
+
+// let obj = {
+//     name: 'Igor', 
+//     age: 23
+// }
+
+// console.log(obj)
+
+
+//string methods 
+
+// let txt = 'sdsd'
+
+// console.log(txt.indexOf('d'))
+
+let book = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates fuga debitis veniam voluptatum recusandae harum itaque et unde similique, perspiciatis tempora error fugiat sunt, necessitatibus tempore. Reprehenderit porro odit Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates fuga debitis veniam voluptatum recusandae harum itaque et unde similique, perspiciatis tempora error fugiat sunt, necessitatibus tempore. Reprehenderit porro odit Lorem "
+
+let text = "Please visit Microsoft!";
+let newText = text.replace("Microsoft", "W3Schools");
+
+
